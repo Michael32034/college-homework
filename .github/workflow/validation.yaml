@@ -1,0 +1,17 @@
+n‌ame: Validity check
+
+on:
+  push:
+    branches:
+      - "main"
+
+job:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: action/checkout@v4
+      - name: HTML5Validator
+        uses: Cyb3r-Jak3/html5validator-action
+        with:
+          root: practical_1/
+          blacklist: invalid
