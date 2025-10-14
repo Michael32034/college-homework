@@ -1,11 +1,11 @@
-n‌ame: Validity check
+name: Validity check
 
 on:
   push:
     branches:
       - "main"
 
-job:
+jobs:
   test:
     runs-on: ubuntu-latest
     steps:
