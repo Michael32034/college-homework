@@ -1,29 +1,41 @@
 <!doctype html>
 <html lang="uk">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home page</title>
-  </head>
 
-  <body>
-    <header></header>
-    <main>
-      <h1>Практичні роботи з Web-дизайну</h1>
-      <h2>Світ повен таємниць</h2>
-      <div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./static/style/main.css">
+  <script src="./static/script/main.js"></script>
+  <title>Home page</title>
+</head>
+
+<body>
+  <header></header>
+  <main>
+    <h1>Практичні роботи з Web-дизайну</h1>
+    <h2>Світ повен таємниць</h2>
+    <div class="void"></div>
+    <div class="card-box">
+      <div class="box-pract" id="practical_1">
         <h3>Практична 1</h3>
         <ul>
           <li>
             <h4>Попередній перегляд</h4>
-            <iframe src="./practical_1/" title="Практична робота"></iframe>
+            <iframe class="preview" src="./practical_1/" title="Практична робота">
+            </iframe>
           </li>
           <li>
-            <h3>Семантична перевірка W3C</h3>
+            <h4>Семантична перевірка W3C</h4>
+            <a href="https://github.com/Michael32034/college-homework/actions/workflows/validation.yaml">
+              <img
+                src="https://github.com/Michael32034/college-homework/actions/workflows/validation.yaml/badge.svg"></img>
+            </a>
           </li>
         </ul>
       </div>
-    </main>
-    <footer>&copy; 2025 Іващенко Михайло</footer>
-  </body>
+    </div>
+  </main>
+  <footer>&copy; 2025 Іващенко Михайло</footer>
+</body>
+
 </html>

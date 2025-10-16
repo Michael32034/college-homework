@@ -1,0 +1,72 @@
+h1,
+h2,
+h3 {
+  text-align: center;
+}
+
+h1 {
+  font-size: 1.3em;
+}
+
+h2 {
+  font-size: 1em;
+  color: gray;
+}
+
+h3 {
+  margin: 0;
+}
+
+ul {
+  padding: 0 1em;
+}
+
+header {
+  height: 8em;
+  background: linear-gradient(#1b0682, #4285f7);
+}
+
+main {
+  transform: translateY(-7em);
+  background-color: aqua;
+  border-radius: 2em;
+  margin: 1em;
+  padding: 1em;
+}
+
+footer {
+  text-align: center;
+}
+
+body {
+  margin: 0;
+  background-color: #4285f7;
+}
+
+.void {
+  width: 0;
+  height: 2em;
+}
+
+.card-box {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(16em, 1fr));
+  gap: 2em;
+  justify-items: center;
+  align-items: start;
+}
+
+.preview {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  background-color: white;
+  border: solid 0.5em black;
+}
+
+.box-pract {
+  border: solid;
+  border-color: black;
+  border-radius: 0.6em;
+  padding: 1em;
+  aspect-ratio: 1 / 1.5;
+}
