@@ -1,3 +1,2 @@
-# Practical work list
-## 1
-[practical_1/_1/index.html](practical_1/index.html)
+# Список практичних робіт
+## [Перша практична](practical_1/index.html)
