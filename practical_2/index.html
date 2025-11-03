@@ -7,18 +7,47 @@
   <meta name="description" content="Information page about popular Youtube channel" />
   <link rel="stylesheet" href="./css/index.css" />
   <title>Lofi girl</title>
+  <style>
+    :root {
+      --PALLETE-1: #da753a;
+      --PALLETE-2: #602600;
+      --PALLETE-3: #dac53a;
+      --PALLETE-4: #9f4300;
+      --PALLETE-A: #653D0B;
+      --PALLETE-B: black;
+      --PALLETE-F: black;
+      --PALLETE-HERO-F: white;
+
+      --FS-BQ: 18px;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --PALLETE-1: #80270c;
+        --PALLETE-2: #602600;
+        --PALLETE-3: #25672a;
+        --PALLETE-4: #9f4300;
+        --PALLETE-A: #FF9E24;
+        --PALLETE-B: black;
+        --PALLETE-F: white;
+        --PALLETE-HERO-F: white;
+
+        --FS-BQ: 18px;
+      }
+    }
+  </style>
 </head>
 
 <body>
   <header>
     <img
       src="https://yt3.googleusercontent.com/VfNEuDwLVdxsIle6MDOJSKPy2D_iNLYzmzGlj2d5EpYLoilKTs78eT6WjvS24jxi1ztuVHmvkA=w1060-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj"
-      loading="eager" width="500" alt="Баннер каналу" />
+      loading="eager" width="500" alt="Баннер каналу" id="banner" />
   </header>
   <main>
     <section class="hero_title">
       <img src="https://admin.lofiworld.com/uploads/logo_f84b394a61.png" loading="eager" alt="Іконка каналу Lofi girl"
-        width="50" height="50" />
+        width="50" height="50" id="icon" />
       <h1>
         Lofi girl
       </h1>
@@ -121,7 +150,7 @@
     <section>
       <h2>Lofi Girl Персонаж</h2>
       <img src="https://admin.lofistudio.com/uploads/Lofigirl_website_B_004_e475c30eb9.png" loading="eager"
-        alt="Lofi Girl Персонаж" height="300" />
+        alt="Lofi Girl Персонаж" id="character" />
     </section>
     <blockquote>Тут могла бути бути ваша реклама :)</blockquote>
   </aside>
