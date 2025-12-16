@@ -3,16 +3,16 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 h1 {
   font-size: 20px;
   align-content: center;
 }
+
 h2 {
   text-align: center;
 }
-h3 {
-  
-}
+
 header {
   background-color: #6AFFEA;
   display: flex;
@@ -21,37 +21,45 @@ header {
   justify-content: space-around;
   padding: 4px;
 }
+
 .pib {
   display: flex;
 }
+
 .pib span {
   align-content: end;
 }
+
 header img {
   height: 55px;
   aspect-ratio: 1/1;
 }
+
 main {
   grid-area: mn;
   background-color: #69D486;
   padding: 20px;
 }
+
 aside {
   grid-area: aside;
   background-color: #6ECDCB;
   padding: 10px;
 }
+
 .aside {
   text-align: center;
   display: flex;
   justify-content: space-around;
 }
+
 .languages {
   display: flex;
   flex-wrap: wrap;
   flex-grow: 0;
   gap: 4px
 }
+
 .lang {
   background-color: #17A5E1;
   padding: 4px;
@@ -63,16 +71,19 @@ aside {
   box-sizing: content-box;
   align-items: center;
 }
+
 .lang img {
   width: 30px;
   aspect-ratio: 1/1;
 }
+
 .utilities {
   display: flex;
   flex-wrap: wrap;
   flex-grow: 0;
   gap: 4px
 }
+
 .utility {
   background-color: #25A242;
   padding: 4px;
@@ -84,10 +95,12 @@ aside {
   box-sizing: content-box;
   align-items: center;
 }
+
 .utility img {
   width: 30px;
   aspect-ratio: 1/1;
 }
+
 footer {
   grid-area: ft;
   display: flex;
@@ -99,24 +112,29 @@ footer {
   border-top: solid 5px black;
   background-color: #008D79;
 }
+
 .sotialy {
   display: flex;
   align-items: center;
 }
-.sotialy a{
+
+.sotialy a {
   color: black;
   text-decoration: none;
   width: 100%;
 }
+
 footer img {
   height: 20px;
-  aspect-ratio: space-around;
+  aspect-ratio: 1 / 1;
 }
+
 body {
   display: flex;
   flex-direction: column;
   background-color: #69D486;
 }
+
 @media (width > 512px) {
   body {
     display: grid;
@@ -126,6 +144,7 @@ body {
       "aside mn mn mn" 1fr
       "ft ft ft ft" auto / 1fr 1fr 1fr 1fr;
   }
+
   .aside {
     display: block;
   }
