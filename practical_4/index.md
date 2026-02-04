@@ -24,25 +24,25 @@
 5. ```console.log(Math.max(20, 10, 50, 40))```
 6. ```console.log(Math.floor(Math.random() * (4 - 2 + 1)) + 2;)```
 7. Вирішення:
-```javascript
-const message = "Welcome to Bahamas!";
-console.log(message.length)
-```
+  ```javascript
+  const message = "Welcome to Bahamas!";
+  console.log(message.length)
+  ```
 8. ```console.log("hello".toUpperCase())```
 9. Вирішення:
-```javascript
-let obj = {};
-obj.name = "Name";
-obj.age = 17;
-obj.city = "SomeCity";
-console.log(obj);
-delete obj.city;
-obj["like flowers"] = true;
-console.log(obj);
-```
+  ```javascript
+  let obj = {};
+  obj.name = "Name";
+  obj.age = 17;
+  obj.city = "SomeCity";
+  console.log(obj);
+  delete obj.city;
+  obj["like flowers"] = true;
+  console.log(obj);
+  ```
 10. Вирішення на прикладі console:
-```javascript
-for (const i in console){
-  console.log(`${i} == ${console[i]}`);
-};
-``` 
+  ```javascript
+  for (const i in console){
+    console.log(`${i} == ${console[i]}`);
+  };
+  ``` 
