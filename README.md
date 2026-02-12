@@ -8,10 +8,12 @@
 
 ## [Четверта практична робота](./practical_4/index.md)
 
-## [П'ята  практична робота](./practical_5/index.md)
+## [П'ята практична робота](./practical_5/index.md)
 
-## [Шоста  практична робота](./practical_6/index.md)
+## [Шоста практична робота](./practical_6/index.md)
 
-## [Сьома  практична робота](./practical_7/index.md)
+## [Сьома практична робота](./practical_7/index.md)
 
-## [Восьма  практична робота](./practical_8/index.md)
+## [Восьма практична робота](./practical_8/index.md)
+
+## [Дев'ята практична робота](./practical_9/index.md)
