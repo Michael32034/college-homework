@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center
+}
+
+span {
+  color: gray;
+}
+
+#roboto {
+  font-family: "Roboto";
+}
+
+#open-sans {
+  font-family: "Open Sans";
+}
+
+#datatype {
+  font-family: "datatype";
+}
+
+#bungee {
+  font-family: "Bungee";
+}
