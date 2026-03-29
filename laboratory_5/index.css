@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "HS_LunaObscura";
+  src: url("./hs_lunaobscura/HS_LunaObscura.ttf");
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -26,4 +31,9 @@ span {
 
 #bungee {
   font-family: "Bungee";
+}
+
+#lunaoscura {
+  font-family: "HS_LunaObscura";
+  font-size: 10px;
 }
