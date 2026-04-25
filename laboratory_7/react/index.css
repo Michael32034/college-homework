@@ -1,0 +1,43 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  color: #00AFB9;
+  background-color: #3A3C3F;
+}
+
+h1 {
+  text-align: center;
+  padding: 10pt;
+  margin: 7pt;
+  color: #0FE4E9;
+  border: solid 1pt;
+  border-radius: 7pt;
+  border-color: #0FE4E9;
+}
+
+p {
+  font-size: 15pt;
+}
+
+#description {
+  padding: 10pt;
+}
+
+#feautures {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(420px, 1fr));
+  gap: 12px;
+  padding: 16px;
+}
+
+#details {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  padding: 10pt 30pt 10pt 30pt;
+  color: #20B472;
+}
